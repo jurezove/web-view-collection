@@ -13,6 +13,7 @@
 		254C074D1AFA04E20010F8E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254C074C1AFA04E20010F8E7 /* Images.xcassets */; };
 		254C07501AFA04E20010F8E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254C074E1AFA04E20010F8E7 /* LaunchScreen.xib */; };
 		254C075C1AFA04E20010F8E7 /* Web_View_in_CollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254C075B1AFA04E20010F8E7 /* Web_View_in_CollectionTests.swift */; };
+		254C07661AFA053E0010F8E7 /* WebViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254C07651AFA053E0010F8E7 /* WebViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		254C07551AFA04E20010F8E7 /* Web View in CollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Web View in CollectionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		254C075A1AFA04E20010F8E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		254C075B1AFA04E20010F8E7 /* Web_View_in_CollectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web_View_in_CollectionTests.swift; sourceTree = "<group>"; };
+		254C07651AFA053E0010F8E7 /* WebViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				254C07451AFA04E20010F8E7 /* AppDelegate.swift */,
 				254C07471AFA04E20010F8E7 /* ViewController.swift */,
+				254C07651AFA053E0010F8E7 /* WebViewCell.swift */,
 				254C07491AFA04E20010F8E7 /* Main.storyboard */,
 				254C074C1AFA04E20010F8E7 /* Images.xcassets */,
 				254C074E1AFA04E20010F8E7 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				254C07481AFA04E20010F8E7 /* ViewController.swift in Sources */,
+				254C07661AFA053E0010F8E7 /* WebViewCell.swift in Sources */,
 				254C07461AFA04E20010F8E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
